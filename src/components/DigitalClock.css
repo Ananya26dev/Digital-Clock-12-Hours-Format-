@@ -1,0 +1,33 @@
+.digital-clock{
+  height: 100vh;
+  background: linear-gradient(135deg,#1f4037,#99f2c8);
+}
+.clock-box{
+  font-size: 2rem;
+  background:rgba(0,0,0,0.4);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+.date{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.time{
+  font-size: 3rem;
+}
+.time-section{
+  display: inline-block;
+  margin: 0 10px;
+}
+.time-section small{
+  display: block;
+  font-size:0.75rem;
+}
+.am-pm{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+.am-pm small{
+  font-size: 1rem;
+}
